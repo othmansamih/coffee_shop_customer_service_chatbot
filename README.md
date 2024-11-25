@@ -20,7 +20,7 @@ This project includes:
 * A trained and deployed recommendation engine. 
 
 ## 🧠 Chatbot Agent Architecture
-![Coffee Shop Agent Architecture](./images/chatbot_agent_architecture.jpg)
+![Coffee Shop Agent Architecture](images/chatbot_agent_architecture.jpg)
 
 The chatbot in this project is designed using a modular agent-based architecture, where each agent is responsible for a specific task, ensuring a seamless and efficient interaction between the user and the coffee shop’s services. This architecture enables the chatbot to perform complex actions by delegating tasks to specialized agents, making the system highly flexible, scalable, and easy to extend.
 
@@ -80,14 +80,17 @@ To set up the project and run the notebooks, follow these steps:
 
 1. **Install Requirements**:  
    Ensure you have the necessary dependencies installed by running:
+
    ```bash
    pip install -r requirements.txt
     ```
+
 2. **Create a Huggingface account**:
     * Create a [Hugging Face](https://huggingface.co)
     * Choose an LLM model and If necessary agree to the terms of use for the model you are going to use (necessary for LLama 3). In this project I used [LLama 3](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct).
     * Create a Hugging face account token. You are going to need when setting up the Chatbot on Runpod.
     * Create .env file `coffee_customer_service_chatbot` folder and add the enviroement variable.
+
     ```
     MODEL_NAME=<your_chosen_hugginface_model>
     ```
@@ -96,18 +99,22 @@ To set up the project and run the notebooks, follow these steps:
     * Sign up for a [RunPod](https://runpod.io) account.
     * Create a ChatBot endpoint and an embedding endpoint.
     * Obtain your RunPod token and fill in the .env file with the following:
+
     ```
     RUNPOD_TOKEN=<your_runpod_token>
     RUNPOD_CHATBOT_URL=<your_chatbot_endpoint>
     RUNPOD_EMBEDDING_URL=<your_embedding_endpoint>
     ``
+
 4. **Create a Pinecone Account**:
     * Sign up for a Pinecone account.
     * Copy and paste your Pinecone API key into the .env file:
+
     ```
     PINECONE_API_KEY=<your_pinecone_api_key>
     PINECONE_INDEX_NAME=<your_index_name>
     ```
+
 5. **Run Notebooks** :
     * You are now ready to run each Jupyter notebook without any issues. Open the notebooks and execute the cells as needed.
 
