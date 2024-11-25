@@ -93,7 +93,7 @@ To set up the project and run the notebooks, follow these steps:
 
     ```
     MODEL_NAME=<your_chosen_hugginface_model>
-    ```
+     ```
 
 3. **Create a RunPod Account**:
     * Sign up for a [RunPod](https://runpod.io) account.
@@ -104,7 +104,7 @@ To set up the project and run the notebooks, follow these steps:
     RUNPOD_TOKEN=<your_runpod_token>
     RUNPOD_CHATBOT_URL=<your_chatbot_endpoint>
     RUNPOD_EMBEDDING_URL=<your_embedding_endpoint>
-    ``
+     ```
 
 4. **Create a Pinecone Account**:
     * Sign up for a Pinecone account.
