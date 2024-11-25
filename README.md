@@ -90,6 +90,7 @@ To set up the project and run the notebooks, follow these steps:
     * Choose an LLM model and If necessary agree to the terms of use for the model you are going to use (necessary for LLama 3). In this project I used [LLama 3](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct).
     * Create a Hugging face account token. You are going to need when setting up the Chatbot on Runpod.
     * Create .env file `coffee_customer_service_chatbot` folder and add the enviroement variable.
+    <br>
 
     ```
     MODEL_NAME=<your_chosen_hugginface_model>
@@ -99,16 +100,18 @@ To set up the project and run the notebooks, follow these steps:
     * Sign up for a [RunPod](https://runpod.io) account.
     * Create a ChatBot endpoint and an embedding endpoint.
     * Obtain your RunPod token and fill in the .env file with the following:
+    <br>
 
     ```
     RUNPOD_TOKEN=<your_runpod_token>
     RUNPOD_CHATBOT_URL=<your_chatbot_endpoint>
     RUNPOD_EMBEDDING_URL=<your_embedding_endpoint>
-     ```
+    ```
 
 4. **Create a Pinecone Account**:
     * Sign up for a Pinecone account.
     * Copy and paste your Pinecone API key into the .env file:
+    <br>
 
     ```
     PINECONE_API_KEY=<your_pinecone_api_key>
