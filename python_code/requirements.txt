@@ -1,0 +1,8 @@
+ipywidgets
+ipykernel
+openai
+python-dotenv
+scikit-learn
+pandas
+mlxtend
+pinecone[grpc]
